@@ -94,7 +94,7 @@ async function renderplane(){
                     data["location"][data["icaos"][i]],
                     {}
                 ).addTo(a);
-                // icao_list[data["icaos"][i]]=data["location"][data["icaos"][i]];
+                //icao_list[data["icaos"][i]]=data["location"][data["icaos"][i]];
             }
             marker.setIcon(icon_red_plane);
         }
